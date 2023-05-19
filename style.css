@@ -42,3 +42,9 @@ section {
     background-repeat: no-repeat;
     background-image: url(images/istockphoto-163858937-612x612.jpg)
 }
+
+.begraundim {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(images/pngtree-background-purple-png-image_5354582-removebg-preview.png)
+}
