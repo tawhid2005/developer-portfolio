@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .tyu {
     color: orange;
 }
 
-section {
+.spacific {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .wid {
@@ -46,5 +51,37 @@ section {
 .begraundim {
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url(images/pngtree-background-purple-png-image_5354582-removebg-preview.png)
+    background-image: url(images/pngtree-background-purple-png-image_5354582-removebg-preview.g)
+}
+
+.expereance {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 30px;
+}
+
+.expereance-aria {
+    background-position: left;
+    background-image: url(images/websed1.jpg)
+}
+
+#web-expereance {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#web-expereance-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, rgb(245, 60, 27));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
